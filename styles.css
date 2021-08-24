@@ -1,0 +1,397 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  right: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+
+}
+
+h5 {
+  padding: 10px 25px;
+  border-radius: 50px;
+  background-color: #dfeeea8e;
+}
+
+.header-bg {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("./Qwerty2/bgimage1.jpg");
+  background-position: bottom;
+  background-size: cover;
+}
+
+.content {
+  margin: 30px 30px 30px 30px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 10px 10px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  transform-style: preserve-3d;
+  top: 40px;
+}
+
+.content .first {
+  position: relative;
+  max-width: 300px;
+  height: 400px;
+  background: wheat;
+  margin-bottom: 60px;
+  padding: 20px 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in-out;
+  border-radius: 4px;
+}
+
+.content .first:hover {
+  height: 500px;
+}
+
+.content .first .imgbox {
+  position: relative;
+  width: 250px;
+  height: 350px;
+  top: -60px;
+  left: auto;
+  right: auto;
+  z-index: 1;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.content .first .imgbox img {
+  max-width: 100%;
+  border-radius: 4px;
+  width: 250px;
+  height: 350px;
+}
+
+.content .first .contentbox {
+  position: relative;
+  
+  margin-top: -140px;
+  padding: 10px 15px;
+  text-align: center;
+  color: #d83a56;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.content .first:hover .contentbox {
+  visibility: visible;
+  opacity: 1;
+  margin-top: -40px;
+  transition-delay: 0.3s;
+ 
+}
+
+p {
+  font-size: .8rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.image-title {
+  margin: 8px 16px;
+  padding: 5px;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+  border-bottom: 1px dotted #f21170;
+}
+
+
+.top-main-content {
+  position: absolute;
+  top: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bg-para {
+  margin: 20px;
+  text-align: center;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 30px;
+  background-color: #dfeeea8e;
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.left-half {
+  position: relative;
+  top: -55px;
+}
+
+.left-half h1 {
+  font-size: 54px;
+}
+
+.left-half h3 {
+  font-size: 30px;
+  color: #707070;
+  font-weight: 100;
+  margin: 20px 0 10px;
+}
+
+.main-heading {
+  font-weight: 700;
+  font-family: 'Sacramento', cursive;
+  color: hsl(51, 100%, 50%);
+}
+
+.left-half .main-subheading {
+  color: #1e212d;
+  font-weight: 700;
+  font-family: 'Sacramento', cursive;
+}
+
+#main-body {
+  background-color: wheat;
+}
+
+.footer {
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  background-color: #d83a56;
+}
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-content .box {
+  flex-basis: 50%;
+  padding: 10px 20px;
+}
+.box h2 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #ffeedb;
+  text-transform: uppercase;
+}
+.box .content {
+  margin: 20px 0 0 0;
+  position: relative;
+}
+.box .content:before {
+  position: absolute;
+  content: "";
+  top: -10px;
+  height: 2px;
+  width: 100%;
+  background: #ffeedb;
+}
+.box .content:after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 15%;
+  background: #f12020;
+  top: -10px;
+}
+.left .content p {
+  text-align: justify;
+}
+.left .content .social {
+  margin: 20px 0 0 0;
+}
+.left .content .social a {
+  padding: 0 10px;
+}
+.left .content .social a span {
+  height: 40px;
+  width: 40px;
+  background: #ff616d;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+.left .content .social a span:hover {
+  background: #ffeedb;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner_nav {
+  margin-top: 10px;
+}
+
+.wishes {
+  background-color: wheat;
+}
+.wife {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  margin: 5px;
+  padding: 8px;
+  font-size: 2.1rem;
+  border-bottom: 1px dotted #f21170;
+}
+
+.wifey {
+  color: #F21170;
+}
+.wishes .abc {
+  margin: 5px;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+  font-weight: 300;
+  color: #B42B51;
+}
+
+.wishes .def {
+  margin: 5px;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+  font-weight: 300;
+  color: #E63E6D;
+}
+
+.main_hand {
+  margin: 30px 0px 30px 0px;
+  padding: 10px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  transform-style: preserve-3d;
+  top: 200px;
+  
+  
+}
+.main_hand .hand_card{
+ 
+  width: 300px;
+  height: 400px;
+  margin: 20px 0;
+  perspective: 1000px;
+  overflow: hidden;
+  transform-style: preserve-3d;
+  border-radius: 10px;
+}
+
+.main_hand .hand_card .hand_image{
+  
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-origin: top;
+  transform-style: preserve-3d;
+  transition: 0.5s;
+  transition-delay: 0.2s;
+
+}
+
+.main_hand .hand_card:hover .hand_image {
+  transform: rotateX(-90deg);
+  opacity: 0;
+  transition-delay: 0s;
+}
+
+.main_hand .hand_card .hand_image img {
+  
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+.main_hand .hand_card .hand_content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #F21170;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  transform-origin: bottom;
+  transform-style: preserve-3d;
+  transition: 0.5s;
+  transform: rotateX(90deg);
+  opacity: 0;
+  color: #F2EDD7;
+
+}
+.main_hand .hand_card .hand_content .handgrab {
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.main_hand .hand_card:hover .hand_content {
+  transform: rotateX(0deg);
+  opacity: 1;
+  transition-delay: 0.2s;
+}
+
+@media only screen and (max-width: 400px) {
+  .header-bg {
+    background-image: url("./Qwerty/blackbg.jpg");
+    background-position: bottom;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .cover {
+    color: white;
+    font-family: 'Sacramento', cursive;
+  }
+
+  .navbar {
+    color: orange;
+    font-family: 'Sacramento', cursive;
+  }
+
+  .navbar:hover,
+  .navbar.active {
+    background-color: #f9b208;
+    color: #1b1a17;
+   
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .main-container {
+    flex-direction: column-reverse;
+  }
+}
